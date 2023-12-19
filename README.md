@@ -2,7 +2,7 @@ O modelo IS-LM é um dos primeiros modelos que somos introduzidos nas aulas de m
 
 O modelo ilustra as interações do mercado de bens e serviços e do mercado de moeda no curto prazo, as duas variáveis endógenas do modelo é o nível de produto (Y) e taxa de juros (r) que podem ser encontradas no ponto onde a curva IS e LM se interseccionam, ou seja, quando estão em equilíbrio. O modelo é didático para extrair insights de como políticas monetárias e fiscais podem influenciar o produto e juros de uma economia, entretanto hoje sabemos que o modelo é ultrapassado e foi superado por modelos melhores.
 
-Eu fiz em #Python um gráfico interativo do modelo baseado no livro-texto de Macroeconomia do Gregory Mankiw e as soluções algébricas estão no apêndice do livro. É possível brincar com os parâmetros para visualizar como um aumento dos gastos (G) ou e da oferta de moeda (M) afetam o equilíbrio de uma economia, por exemplo.
+O gráfico interativo foi feito em Python e é baseado no modelo apresentado no livro-texto de Macroeconomia do Gregory Mankiw e as soluções algébricas estão no apêndice do livro. É possível brincar com os parâmetros para visualizar como um aumento dos gastos (G) ou e da oferta de moeda (M) afetam o equilíbrio de uma economia, por exemplo.
 
 (*) A formulação algébrica pode ser vizualida abaixo:
 
