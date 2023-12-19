@@ -7,18 +7,29 @@ Eu fiz em #Python um gráfico interativo do modelo baseado no livro-texto de Mac
 (*) A formulação algébrica pode ser vizualida abaixo:
 
 Curva IS
+
 Y = C + I + G
+
 C = a + b * (Y - T)
+
 I = c - d*r
+
 G = G
+
 T = T
+
 Y = a + b * (Y - T) + c - d*r + G
+
 Y - b * Y = (a + c) (G - b * T) - d*r
+
 Y * (1 - b) = (a + c) + (G - b * T) - d*r 
+
 Y = (a + c + G - b * T -d * r) * ( 1 / ( 1 - b ) )
 
 Curva LM
+
 M / P = e* Y + k* r
+
 Y = ( M / P + k * r ) * ( 1 / e )
 
 Parâmetros
