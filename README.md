@@ -33,15 +33,25 @@ M / P = e* Y + k* r
 Y = ( M / P + k * r ) * ( 1 / e )
 
 Parâmetros
+
 a = Consumo autônomo
+
 b = Propensão marginal a consumir
+
 c = Investimento autônomo
+
 d = Sensibilidade do investimento à taxa de juros
+
 G = Gastos do governo
+
 T = Tributos
+
 M = Demanda por moeda
+
 P = Nível de Preços
+
 k = Sensibilidade da demanda por moeda à taxa de juros
+
 e = Sensibilidade demanda por moeda à renda
 
 ![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/modelo%20is-lm.png)
