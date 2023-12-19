@@ -57,4 +57,8 @@ k = Sensibilidade da demanda por moeda à taxa de juros
 
 e = Sensibilidade demanda por moeda à renda
 
+Referências: 
+
+Macroeconomics, Ed. 5, N. Gregory Mankiw
+
 ![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/modelo%20is-lm.png)
