@@ -9,12 +9,12 @@ As manipulações algébricas podem ser vizualidas abaixo:
 
 Curva IS
 
-![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/algebra%20curva%20is.png)
+![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/curva%20is%20algebra.png)
 
 
 Curva LM
 
-![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/algebra%20curva%20lm.png)
+![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/curva%20lm%20algebra.png)
 
 Parâmetros
 
