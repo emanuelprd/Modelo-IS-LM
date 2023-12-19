@@ -4,7 +4,7 @@ O modelo ilustra as interações do mercado de bens e serviços e do mercado de 
 
 O gráfico interativo foi feito em Python e é baseado no modelo apresentado no livro-texto de Macroeconomia do Gregory Mankiw e as soluções algébricas estão no apêndice do livro. É possível brincar com os parâmetros para visualizar como um aumento dos gastos (G) ou e da oferta de moeda (M) afetam o equilíbrio de uma economia, por exemplo.
 
-(*) A formulação algébrica pode ser vizualida abaixo:
+As manipulações algébricas podem ser vizualidas abaixo:
 
 
 Curva IS
