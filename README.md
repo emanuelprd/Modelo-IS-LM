@@ -61,4 +61,4 @@ Referências:
 
 Macroeconomics, Ed. 5, N. Gregory Mankiw
 
-![Modelo IS-LM](https://raw.githubusercontent.com/emanuelprd/Modelo-IS-LM/main/modelo%20is-lm.png)
+![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/modelo%20is-lm.png)
