@@ -1,1 +1,1 @@
-![alt text][(https://github.com/emanuelprd/Modelo-IS-LM/blob/main/modelo%20is-lm.png)
+![alt text][(modelo%20is-lm.png)
