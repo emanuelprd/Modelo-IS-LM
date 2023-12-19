@@ -1,6 +1,6 @@
-O modelo IS-LM é um dos primeiros modelos que somos introduzidos ao estudar macroeconomia, ele é fruto da tentativa de modelar a teoria keynesiana e sua formalização mais famosa pode ser encontrada no famoso paper do John Hicks: Mr. Keynes and the “Classics”, A Suggested Interpretation.
+O modelo IS-LM é um dos primeiros modelos que somos introduzidos nas aulas de macroeconomia, ele foi fruto de uma tentativa de modelar a teoria keynesiana e sua formalização pode ser encontrada no famoso paper do John Hicks: Mr. Keynes and the “Classics”, A Suggested Interpretation.
 
-O modelo ilustra as interações do mercado de bens e serviços e do mercado de moeda no curto prazo, as duas variáveis endógenas do modelo é o nível de produto (Y) e taxa de juros (r) que pode ser encontrado no ponto onde a curva IS e LM se interseccionam, ou seja, quando estão em equilíbrio. O modelo é didático para extrair insights de como políticas monetárias e fiscais podem influenciar o produto e juros de uma economia.
+O modelo ilustra as interações do mercado de bens e serviços e do mercado de moeda no curto prazo, as duas variáveis endógenas do modelo é o nível de produto (Y) e taxa de juros (r) que podem ser encontradas no ponto onde a curva IS e LM se interseccionam, ou seja, quando estão em equilíbrio. O modelo é didático para extrair insights de como políticas monetárias e fiscais podem influenciar o produto e juros de uma economia.
 
 Eu fiz em Python um gráfico interativo do modelo baseado no livro-texto de Macroeconomia do Gregory Mankiw e as soluções algébricas estão no apêndice do livro (*). É possível brincar com o modelo para visualizar como um aumento dos gastos (G) ou e da oferta de moeda (M) afetam o equilíbrio de uma economia dentre outros parâmetros. 
 
