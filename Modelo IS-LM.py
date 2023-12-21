@@ -136,7 +136,7 @@ controls_column = VBox([
     Label(value='Demanda por moeda', layout=Layout(margin='0 0 0 10px')), M_slider,
     Label(value='Nível de Preços', layout=Layout(margin='0 0 0 10px')), P_slider,
     Label(value='Sensibilidade demanda por moeda à renda', layout=Layout(margin='0 0 0 10px')), e_slider,
-], layout=Layout(display='flex', flex_flow='column', width='400px', height='550px', border='solid'))
+], layout=Layout(display='flex', flex_flow='column', width='400px', height='550px'))
 
 # Saída Interativa
 output = interactive_output(grafico_interativo,
