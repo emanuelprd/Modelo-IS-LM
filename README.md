@@ -20,8 +20,6 @@ Parâmetros
 
 ![Modelo IS-LM](https://github.com/emanuelprd/Modelo-IS-LM/blob/main/parametros%20modelo.png)
 
-Obs. k = f no código em Python
-
 Referências: 
 
 Macroeconomics, Ed. 5, N. Gregory Mankiw
