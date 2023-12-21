@@ -24,6 +24,8 @@ def curva_lm(Y, r, f, M, P, e):
     
     return (M/P+f*r)*(1/e)
 
+plt.rcParams['figure.figsize'] = (7, 7)
+
 # Definindo a função de equilíbrio
 def equilibrio(Y, r, a, b, c, d, G, T, f, M, P, e, color):
     
