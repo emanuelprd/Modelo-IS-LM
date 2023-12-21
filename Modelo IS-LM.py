@@ -36,10 +36,10 @@ def equilibrio(Y, r, a, b, c, d, G, T, f, M, P, e, color):
     
     if color == 'blue':
         plt.scatter(y_equilibrio, r_equilibrio, color=color, zorder=3, s = 15, 
-                label = f"r1 = {r_equilibrio:.2f}\nY1 = {y_equilibrio:.2f}")  
+                label = f"r1 = {r_equilibrio:.2f}\nY1 = {y_equilibrio:.0f}")  
     else:
         plt.scatter(y_equilibrio, r_equilibrio, color=color, zorder=3, s = 15, 
-                label = f"r2 = {r_equilibrio:.2f}\nY2 = {y_equilibrio:.2f}")  
+                label = f"r2 = {r_equilibrio:.2f}\nY2 = {y_equilibrio:.0f}")  
     
     plt.vlines(x= y_equilibrio, ymin = 0, ymax=r_equilibrio, linestyle='dashed', color=color, alpha=0.3) 
     plt.hlines(y= r_equilibrio, xmin = 0, xmax=y_equilibrio, linestyle='dashed', color=color, alpha=0.3) 
