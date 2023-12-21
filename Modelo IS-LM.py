@@ -104,24 +104,37 @@ def grafico_padrao():
     plt.legend()
 
 # Layout dos sliders
-slider_layout = Layout(width='500px')
+slider_layout = Layout(width='370px')
     
 # Configuração dos sliders
-a_slider = FloatSlider(value=200, min=0, max=1000, description='Consumo autônomo', continuous_update=False)
-b_slider = FloatSlider(value=0.75, min=0.1, max=1.0, description='Propensão marginal a consumir', continuous_update=False)
-c_slider = FloatSlider(value=200, min=100, max=1000, description='Investimento autônomo', continuous_update=False)
-d_slider = FloatSlider(value=25, min=0, max=50, description='Sensibilidade do investimento à taxa de juros', continuous_update=False)
-G_slider = FloatSlider(value=100, min=0, max=1000, description='Gastos do governo', continuous_update=False)
-T_slider = FloatSlider(value=100, min=0, max=1000, description='Tributos pagos ao governo', continuous_update=False)
-f_slider = FloatSlider(value=100, min=0, max=1000, description='Sensibilidade da demanda por moeda à taxa de juros', continuous_update=False)
-M_slider = FloatSlider(value=1000, min=0, max=2000, description='Demanda por moeda', continuous_update=False)
-P_slider = FloatSlider(value=2, min=0, max=10, description='Nível de Preços', continuous_update=False)
-e_slider = FloatSlider(value=1, min=0.1, max=3, description='Sensibilidade demanda por moeda à renda', continuous_update=False)
+a_slider = FloatSlider(value=200, min=0, max=1000, continuous_update=False, layout=slider_layout)
+b_slider = FloatSlider(value=0.75, min=0.1, max=1.0, continuous_update=False, layout=slider_layout)
+c_slider = FloatSlider(value=200, min=100, max=1000, continuous_update=False, layout=slider_layout)
+d_slider = FloatSlider(value=25, min=0, max=50, continuous_update=False, layout=slider_layout)
+G_slider = FloatSlider(value=100, min=0, max=1000, continuous_update=False, layout=slider_layout)
+T_slider = FloatSlider(value=100, min=0, max=1000, continuous_update=False, layout=slider_layout)
+f_slider = FloatSlider(value=100, min=0, max=200, continuous_update=False, layout=slider_layout)
+M_slider = FloatSlider(value=1000, min=0, max=2000, continuous_update=False, layout=slider_layout)
+P_slider = FloatSlider(value=2, min=0, max=10, continuous_update=False, layout=slider_layout)
+e_slider = FloatSlider(value=1, min=0.1, max=3, continuous_update=False, layout=slider_layout)
 
 # Layout do Vbox
 controls_column = VBox([a_slider, b_slider, c_slider, d_slider, G_slider, 
                         T_slider, f_slider, M_slider, P_slider, e_slider],
-                       layout=Layout(display='flex', flex_flow='column', width='400px', height ='330px', border='solid'))
+                       layout=Layout(display='flex', flex_flow='column', width='400px', height ='330px'))
+# Layout do Hbox
+controls_column = VBox([
+    Label(value='Consumo autônomo', layout=Layout(margin='0 0 0 10px')), a_slider,
+    Label(value='Propensão marginal a consumir', layout=Layout(margin='0 0 0 10px')), b_slider,
+    Label(value='Investimento autônomo', layout=Layout(margin='0 0 0 10px')), c_slider,
+    Label(value='Sensibilidade do investimento à taxa de juros', layout=Layout(margin='0 0 0 10px')), d_slider,
+    Label(value='Gastos do governo', layout=Layout(margin='0 0 0 10px')), G_slider,
+    Label(value='Tributos pagos ao governo', layout=Layout(margin='0 0 0 10px')), T_slider,
+    Label(value='Sensibilidade da demanda por moeda à taxa de juros', layout=Layout(margin='0 0 0 10px')), f_slider,
+    Label(value='Demanda por moeda', layout=Layout(margin='0 0 0 10px')), M_slider,
+    Label(value='Nível de Preços', layout=Layout(margin='0 0 0 10px')), P_slider,
+    Label(value='Sensibilidade demanda por moeda à renda', layout=Layout(margin='0 0 0 10px')), e_slider,
+], layout=Layout(display='flex', flex_flow='column', width='400px', height='550px', border='solid'))
 
 # Saída Interativa
 output = interactive_output(grafico_interativo,
@@ -131,8 +144,6 @@ output = interactive_output(grafico_interativo,
 #Rodando o display
 display(HBox([output, controls_column]))
 
-
-# In[ ]:
 
 
 
